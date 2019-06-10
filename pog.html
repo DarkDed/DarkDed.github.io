@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Научно-техническая библиотека</title>
+<link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="header">
+	<ul id="menu">
+		<li><a href="index.html" title="">Главная</a></li>
+		<li><a href="inf.html" title="">Информатика</a></li>
+		<li><a href="fiz.html" title="">Физика</a></li>
+		<li><a href="mat.html" title="">Математика</a></li>
+		<li><a href="him.html" title="">Химия</a></li>
+		<li><a href="cont.html" title="">Контакты</a></li>
+	</ul>
+	<form id="search" method="get" action="">
+		<fieldset>
+		<input name="input1" type="text" id="input1" />
+		<input name="input2" type="submit" id="input2" value="Search" />
+		</fieldset>
+	</form>
+</div>
+<div id="content">
+	<div id="colOne">
+		<div id="logo">
+			<h1><a href="#">Библиотека</a></h1>
+			<h2>Научно-техническая</a></h2>
+		</div>
+		<div class="box">
+			<h3>Меню</h3>
+			<ul class="bottom">
+				<li><a href="index.html" title="">Главная</a></li>
+				<li><a href="inf.html" title="">Информатика</a></li>
+				<li><a href="fiz.html" title="">Физика</a></li>
+				<li><a href="mat.html" title="">Математика</a></li>
+				<li><a href="him.html" title="">Химия</a></li>
+				<li><a href="cont.php" title="">Контакты</a></li>
+				<li><a href="pog.html" title="">Отдать книгу</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="colTwo">
+		<div class="box">
+			<h3>Книгам место в библиотеках</h3><BR>
+			<h4><strong>Самое логичное и правильное место, чтобы пожертвовать книги, – это библиотеки.</h4>
+			<p class="bottom">Если у вас есть ненужные книги, вы можете их отдать в нашу библиотеку. Для этого заполните форму ниже</p>
+			<form id="frm" method="post" action="sc.php">
+			  <label for="name">Имя</label><br>
+			  <input type="text" name="name" /><br><br>
+			  <label for="mail">E-mail:</label><br>
+			  <input type="text" name="mail" /><br><br>
+			  <label for="message">Название и автор книги:</label><br>
+			  <textarea name="message"></textarea><br><br>
+			  <input type="submit" value="Отправить" />
+			</form>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<p>Наша библиотека работает с 2014.<br /></p>
+</div>
+</body>
+</html>
